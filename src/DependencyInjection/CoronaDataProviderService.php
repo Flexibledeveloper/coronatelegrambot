@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2021 Florian Völker <florian@flexibledeveloper.eu>
+//
+// SPDX-License-Identifier: AGPL-V3
+
 <?php
 
 namespace App\DependencyInjection;
@@ -20,6 +24,7 @@ class CoronaDataProviderService
         $response = $this->client->request(
             'POST',
             $this->coronaDataUrl,
+
             [
                 'headers' => [
                     'Content-Type' => 'application/x-www-form-urlencoded',
@@ -33,7 +38,8 @@ class CoronaDataProviderService
             ]
         );
         $information = json_decode($response->getContent(), true);
-
+        
         return $information['features'][0]['attributes'];
     }
 }
+
