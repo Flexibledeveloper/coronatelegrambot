@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2021 Florian Völker <florian@flexibledeveloper.eu>
+//
+// SPDX-License-Identifier: AGPL-V3
+
 <?php
 
 namespace App\DependencyInjection;

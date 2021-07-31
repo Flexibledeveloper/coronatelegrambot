@@ -1,0 +1,8 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: Corona Telegram Bot
+Upstream-Contact: Florian Völker <florian@flexibledeveloper.eu>
+Source: https://github.com/Flexibledeveloper/coronatelegrambot 
+
+Files: src/*
+Copyright: 2021 Florian Völker <florian@flexibledeveloper.eu>
+License: AGPL-3.0 
