@@ -1,7 +1,3 @@
-#index:
-#    path: /
-#    controller: App\Controller\DefaultController::index
-
 updateDataAndInformBot:
     path: /updateDataAndInformBot
     controller: App\Controller\DefaultController::updateDataAndInformBot
